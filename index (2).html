@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Noosa House — Café de Especialidad</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="nav">
+    <a href="#" class="nav-logo">Noosa House</a>
+    <nav class="nav-links">
+      <a href="#menu">Carta</a>
+      <a href="#nosotros">Nosotros</a>
+      <a href="#galeria">Galería</a>
+      <a href="#visita">Visita</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Menú">&#9776;</button>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-inner">
+      <p class="hero-eyebrow">Buenos Aires · Café de Especialidad</p>
+      <h1 class="hero-title">Un lugar<br/><em>para quedarse</em></h1>
+      <p class="hero-sub">Origen único. Método cuidado. Cada taza, una historia.</p>
+      <a href="#menu" class="btn">Ver la carta</a>
+    </div>
+    <div class="hero-deco">
+      <svg viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="200" cy="200" r="180" stroke="#c8a97e" stroke-width="0.8" opacity="0.4"/>
+        <circle cx="200" cy="200" r="140" stroke="#c8a97e" stroke-width="0.4" opacity="0.3"/>
+        <circle cx="200" cy="200" r="100" stroke="#c8a97e" stroke-width="0.4" opacity="0.2"/>
+        <ellipse cx="200" cy="200" rx="60" ry="80" stroke="#c8a97e" stroke-width="0.6" opacity="0.5"/>
+        <line x1="200" y1="20" x2="200" y2="380" stroke="#c8a97e" stroke-width="0.4" opacity="0.2"/>
+        <line x1="20" y1="200" x2="380" y2="200" stroke="#c8a97e" stroke-width="0.4" opacity="0.2"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- MENU -->
+  <section class="menu" id="menu">
+    <div class="section-header">
+      <span class="label">— Carta</span>
+      <h2>Lo que servimos</h2>
+    </div>
+    <div class="menu-grid">
+      <div class="menu-category">
+        <h3>Filtrados</h3>
+        <ul class="menu-list">
+          <li><span>V60</span><span>$1.800</span></li>
+          <li><span>Chemex</span><span>$2.000</span></li>
+          <li><span>Aeropress</span><span>$1.800</span></li>
+          <li><span>Cold Brew</span><span>$2.200</span></li>
+        </ul>
+      </div>
+      <div class="menu-category">
+        <h3>Espresso</h3>
+        <ul class="menu-list">
+          <li><span>Espresso</span><span>$1.400</span></li>
+          <li><span>Cortado</span><span>$1.600</span></li>
+          <li><span>Flat White</span><span>$1.800</span></li>
+          <li><span>Latte</span><span>$2.000</span></li>
+          <li><span>Cappuccino</span><span>$1.900</span></li>
+        </ul>
+      </div>
+      <div class="menu-category">
+        <h3>Para comer</h3>
+        <ul class="menu-list">
+          <li><span>Tostada con manteca y mermelada</span><span>$1.200</span></li>
+          <li><span>Avocado toast</span><span>$2.400</span></li>
+          <li><span>Croissant de manteca</span><span>$1.600</span></li>
+          <li><span>Torta de banana y nueces</span><span>$1.800</span></li>
+          <li><span>Bowl de granola</span><span>$2.200</span></li>
+        </ul>
+      </div>
+      <div class="menu-category">
+        <h3>Origen del mes</h3>
+        <div class="origin-card">
+          <p class="origin-name">Etiopía — Yirgacheffe</p>
+          <p class="origin-notes">Notas de durazno, jazmín y cítrico brillante. Proceso natural. Altitud 1.900 m.</p>
+          <p class="origin-farm">Finca Kochere · Cosecha 2024</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- NOSOTROS -->
+  <section class="nosotros" id="nosotros">
+    <div class="nosotros-text">
+      <span class="label">— Nosotros</span>
+      <h2>Café como debe ser</h2>
+      <p>Noosa House nació de una obsesión simple: servir el mejor café posible, sin pretensiones. Trabajamos con tostadores de autor, elegimos orígenes con historia y entrenamos cada método con dedicación.</p>
+      <p>El nombre viene de Noosa, Australia, un lugar donde la calma y la calidad conviven. Ese mismo espíritu nos guía: cuidar el producto y hacer que cada visita valga la pena.</p>
+    </div>
+    <div class="nosotros-visual">
+      <div class="nosotros-img-placeholder">
+        <div class="img-label">foto del espacio</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALERÍA -->
+  <section class="galeria" id="galeria">
+    <div class="section-header">
+      <span class="label">— Galería</span>
+      <h2>El espacio</h2>
+    </div>
+    <div class="galeria-grid">
+      <div class="galeria-item tall"><span>Barra</span></div>
+      <div class="galeria-item"><span>Mesas</span></div>
+      <div class="galeria-item"><span>Detalle taza</span></div>
+      <div class="galeria-item wide"><span>Vista general</span></div>
+      <div class="galeria-item"><span>Latte art</span></div>
+    </div>
+    <p class="galeria-note">Reemplazá los bloques con tus fotos cambiando el <code>background-color</code> de cada <code>.galeria-item</code> por una imagen con <code>background-image: url(...)</code>.</p>
+  </section>
+
+  <!-- VISITA -->
+  <section class="visita" id="visita">
+    <div class="visita-inner">
+      <div class="visita-info">
+        <span class="label">— Visita</span>
+        <h2>Dónde encontrarnos</h2>
+        <div class="visita-dato">
+          <p class="dato-titulo">Dirección</p>
+          <p>Av. Ejemplo 1234, Palermo<br/>Buenos Aires, Argentina</p>
+        </div>
+        <div class="visita-dato">
+          <p class="dato-titulo">Horarios</p>
+          <p>Lunes a viernes · 8:00 – 19:00<br/>Sábados · 9:00 – 18:00<br/>Domingos · 10:00 – 16:00</p>
+        </div>
+        <div class="visita-dato">
+          <p class="dato-titulo">Transporte</p>
+          <p>Subte D · Estación Palermo<br/>Colectivos: 39, 55, 151</p>
+        </div>
+      </div>
+      <div class="visita-mapa">
+        <div class="mapa-placeholder">
+          <p>Insertá tu mapa de Google Maps aquí</p>
+          <code>&lt;iframe src="https://maps.google.com/..." /&gt;</code>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section class="contacto" id="contacto">
+    <div class="section-header">
+      <span class="label">— Contacto</span>
+      <h2>Escribinos</h2>
+    </div>
+    <form class="contacto-form" onsubmit="handleSubmit(event)">
+      <div class="form-row">
+        <div class="form-group">
+          <label for="nombre">Nombre</label>
+          <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="tu@email.com" required />
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" name="mensaje" rows="5" placeholder="¿En qué podemos ayudarte?" required></textarea>
+      </div>
+      <button type="submit" class="btn">Enviar mensaje</button>
+      <p class="form-success" id="form-success">¡Mensaje enviado! Te respondemos pronto.</p>
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <p class="footer-logo">Noosa House</p>
+      <p class="footer-tagline">Café de especialidad · Buenos Aires</p>
+      <div class="footer-links">
+        <a href="#">Instagram</a>
+        <a href="#">WhatsApp</a>
+        <a href="#contacto">Contacto</a>
+      </div>
+      <p class="footer-copy">© 2025 Noosa House. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Nav mobile toggle
+    const toggle = document.querySelector('.nav-toggle');
+    const navLinks = document.querySelector('.nav-links');
+    toggle.addEventListener('click', () => navLinks.classList.toggle('open'));
+
+    // Smooth reveal on scroll
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+    }, { threshold: 0.1 });
+    document.querySelectorAll('section').forEach(s => observer.observe(s));
+
+    // Form
+    function handleSubmit(e) {
+      e.preventDefault();
+      document.getElementById('form-success').style.display = 'block';
+      e.target.reset();
+    }
+  </script>
+
+</body>
+</html>
